@@ -2,7 +2,7 @@ import React from "react";
 
 export const Header = (props) => {
   return (
-    <header id="header">
+    <header id="home">
       <div className="intro">
         <div className="overlay">
           <div className="container">
@@ -13,11 +13,16 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <h2>
+                  {props.data ? props.data.date : "Loading"}
+                  <span></span>
+                </h2>
+                <p>{props.data ? props.data.address : "Loading"}</p>
                 <a
-                  href="#features"
+                  href="#details"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Learn More
+                  More Details
                 </a>{" "}
               </div>
             </div>
