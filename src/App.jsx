@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { Features } from "./components/features";
+import { Home } from "./components/home";
+import { Story } from "./components/story";
 import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
@@ -25,12 +25,13 @@ const App = () => {
   return (
     <div>
       <Navigation />
-      <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
-      <Services data={landingPageData.Services} />
-      <Gallery data={landingPageData.Gallery} />
-      <Testimonials data={landingPageData.Testimonials} />
-      <Contact data={landingPageData.Contact} />
+      <Home data={landingPageData.Home} />
+      <Story data={landingPageData.Story} /> {/** our story */}
+       {/** <Team data={landingPageData.Team} /> bridal party */}
+      <Services data={landingPageData.Services} />  {/** the details venue + time */}
+      {/** <Contact data={landingPageData.Contact} />  RSVP .. might make it a separate page from a button*/} 
+      <Gallery data={landingPageData.Gallery} /> {/** Getting there - venue plus nearby accom */}
+      <Testimonials data={landingPageData.Testimonials} /> {/** registry details */}
     </div>
   );
 };

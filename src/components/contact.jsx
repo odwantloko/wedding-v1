@@ -2,6 +2,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 
+// this will be the rsvp-page
 const initialState = {
   name: "",
   email: "",
