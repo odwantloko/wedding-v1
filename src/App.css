@@ -1,9 +1,6 @@
 @media screen and (max-width: 400px) {
-  #story {
-    padding: 20px;
-    width: 100%;
-  }
   #about,
+  #story
   #details,
   #gettingThere,
   #registry,

@@ -2,26 +2,37 @@
   "Home": {
     "title": "Nelson & Odwa",
     "paragraph": "Together with our families, joyfully invite you to our wedding celebration",
-    "date": "?? December, 2023",
-    "address": "Insert Address here"
+    "date": "4th February, 2024",
+    "address": "Hedgehog's Nest, Rustenburg"
 
   },
-  "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
-  },
-  "Gallery": [
+  "Story": [
+    {
+      "largeImage": "img/gallery/lilparis.jpeg",
+      "smallImage": "img/gallery/lilparis.jpeg"
+    },
+    {
+      "largeImage": "img/gallery/atlantis-jump.jpeg",
+      "smallImage": "img/gallery/atlantis-jump.jpeg"
+    },
+    {
+      "largeImage": "img/gallery/chapmans-mountain.jpeg",
+      "smallImage": "img/gallery/chapmans-mountain.jpeg"
+    },
+    {
+      "largeImage": "img/gallery/IMG_4269.jpeg",
+      "smallImage": "img/gallery/IMG_4269.jpeg"
+    },
+    {
+      "largeImage": "img/gallery/hb.jpeg",
+      "smallImage": "img/gallery/retreat.jpeg"
+    },
+    {
+      "largeImage": "img/gallery/IMG_4322.jpeg",
+      "smallImage": "img/gallery/IMG_4322.jpeg"
+    }
+  ],
+  "GettingThere": [
     {
       "title": "Project Title",
       "largeImage": "img/portfolio/01-large.jpg",
@@ -68,7 +79,7 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
-  "Services": [
+  "Details": [
     {
       "icon": "fa fa-wordpress",
       "name": "Lorem ipsum dolor",
@@ -85,7 +96,7 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
-  "Testimonials": [
+  "Registry": [
     {
       "img": "img/testimonials/01.jpg",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
@@ -126,31 +137,6 @@
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
-  },
-  "Story": [
-    {
-      "largeImage": "img/gallery/lilparis.jpeg",
-      "smallImage": "img/gallery/lilparis.jpeg"
-    },
-    {
-      "largeImage": "img/gallery/atlantis-jump.jpeg",
-      "smallImage": "img/gallery/atlantis-jump.jpeg"
-    },
-    {
-      "largeImage": "img/gallery/chapmans-mountain.jpeg",
-      "smallImage": "img/gallery/chapmans-mountain.jpeg"
-    },
-    {
-      "largeImage": "img/gallery/biking.jpeg",
-      "smallImage": "img/gallery/biking.jpeg"
-    },
-    {
-      "largeImage": "img/gallery/hb.jpeg",
-      "smallImage": "img/gallery/hb.jpeg"
-    },
-    {
-      "largeImage": "img/gallery/standing.jpeg",
-      "smallImage": "img/gallery/standing.jpeg"
-    }
-  ]
+  }
+
 }

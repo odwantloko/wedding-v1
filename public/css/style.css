@@ -17,7 +17,7 @@ h2 {
   margin: 0 0 20px;
   font-weight: 400;
   font-size: 36px;
-  color: #f7a0cb;
+  color: #fdafd5;
 }
 h3 {
   font-size: 20px;
@@ -41,13 +41,13 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #ad5c92;
+  color: #ffc97b;
   font-weight: 400;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #ad5c92;
+  color: #ffc97b;
 }
 ul,
 ol {
@@ -100,7 +100,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #ad5c92 0%, #f7a0cb 100%);
+  background: linear-gradient(to right, #ffc97b 0%, #fdafd5 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -121,7 +121,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #ad5c92 0%, #f7a0cb 100%) !important;
+  background: linear-gradient(to right, #ffc97b 0%, #fdafd5 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -148,7 +148,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #f7a0cb 0%, #ad5c92 100%);
+  background: linear-gradient(to right, #fdafd5 0%, #ffc97b 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -161,8 +161,8 @@ hr {
 .btn-custom {
   font-family: serif;;
   color: #fff;
-  background-color: #f7a0cb;
-  background-image: linear-gradient(to right, #f7a0cb 0%, #ad5c92 100%);
+  background-color: #fdafd5;
+  background-image: linear-gradient(to right, #fdafd5 0%, #ffc97b 100%);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -179,7 +179,7 @@ hr {
 .btn-custom.active {
   color: #fff;
   background-image: none;
-  background-color: #ad5c92;
+  background-color: #ffc97b;
 }
 .btn:active,
 .btn.active {
@@ -228,7 +228,7 @@ a:focus,
 
 .intro h1 span {
   font-weight: 400;
-  color: #f7a0cb;
+  color: #fdafd5;
 }
 
 .intro p {
@@ -257,29 +257,36 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #ad5c92 0%, #f7a0cb 100%);
+  background: linear-gradient(to right, #ffc97b 0%, #fdafd5 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #story h2 {
-  color: #f7a0cb;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  color: #fdafd5;
+ 
 }
 
-/* Services Section */
-#services {
+.story-items {
+  margin: 1px -15px 0 -14px;
+  padding: 0;
+}
+
+
+/* Details Section */
+#details {
   padding: 100px 0;
-  background: linear-gradient(to right, #ad5c92 0%, #f7a0cb 100%);
+  background: linear-gradient(to right, #fdafd5 0%,  #ffc97b 100%);
   color: #fff;
 }
-#services .service-desc {
+#details .details-desc {
   margin: 10px 10px 20px;
 }
-#services h2 {
+#details h2 {
   color: #fff;
 }
-#services .section-title h2::after {
+#details .section-title h2::after {
   position: absolute;
   content: "";
   background: rgba(255, 255, 255, 0.3);
@@ -289,25 +296,25 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
+#details i.fa {
   font-size: 42px;
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #ad5c92 0%, #f7a0cb 100%);
+  background: linear-gradient(to right, #fdafd5 0%,  #ffc97b 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#services h3 {
+#details h3 {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
 }
-#services p {
+#details p {
   color: rgba(255, 255, 255, 0.75);
 }
-#services .service-desc {
+#details .details-desc {
   margin-bottom: 40px;
 }
 /* Portfolio Section */
@@ -358,41 +365,41 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
+/* Registry Section */
+#registry {
   padding: 100px 0;
   background: #f6f6f6;
 }
-#testimonials i {
+#registry i {
   color: #e6e6e6;
   font-size: 32px;
   margin-bottom: 20px;
 }
-.testimonial {
+.registry {
   position: relative;
   padding: 20px;
 }
-.testimonial-image {
+.registry-image {
   float: left;
   margin-right: 15px;
 }
-.testimonial-image,
-.testimonial-image img {
+.registry-image,
+.registry-image img {
   display: block;
   width: 64px;
   height: 64px;
   border-radius: 50%;
 }
-.testimonial-content {
+.registry-content {
   position: relative;
   overflow: hidden;
 }
-.testimonial-content p {
+.registry-content p {
   margin-bottom: 0;
   font-size: 14px;
   font-style: italic;
 }
-.testimonial-meta {
+.registry-meta {
   margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
@@ -419,7 +426,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #ad5c92 0%, #f7a0cb 100%);
+  background: linear-gradient(to right, #ffc97b 0%, #fdafd5 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -432,7 +439,7 @@ header .intro-text {
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
-  color: #f7a0cb;
+  color: #fdafd5;
 }
 #contact .section-title h2::after {
   position: absolute;

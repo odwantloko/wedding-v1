@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Home } from "./components/home";
 import { Story } from "./components/story";
-import { Services } from "./components/services";
-import { Gallery } from "./components/gallery";
-import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
-import { Contact } from "./components/contact";
+import { Details } from "./components/details";
+import { GettingThere } from "./components/gettingThere";
+import { Registry } from "./components/registry";
+import { Team } from "./components/Team"; // bridal party
+import { Contact } from "./components/contact"; // rsvp
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -28,10 +28,10 @@ const App = () => {
       <Home data={landingPageData.Home} />
       <Story data={landingPageData.Story} /> {/** our story */}
        {/** <Team data={landingPageData.Team} /> bridal party */}
-      <Services data={landingPageData.Services} />  {/** the details venue + time */}
+      <Details data={landingPageData.Details} />  {/** the details venue + time */}
       {/** <Contact data={landingPageData.Contact} />  RSVP .. might make it a separate page from a button*/} 
-      <Gallery data={landingPageData.Gallery} /> {/** Getting there - venue plus nearby accom */}
-      <Testimonials data={landingPageData.Testimonials} /> {/** registry details */}
+      <GettingThere data={landingPageData.GettingThere} /> {/** Getting there - venue plus nearby accom */}
+      <Registry data={landingPageData.Registry} /> {/** registry details */}
     </div>
   );
 };
