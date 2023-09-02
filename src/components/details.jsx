@@ -7,7 +7,7 @@ export const Details = (props) => {
         <div className="section-title">
           <h2>The Details</h2>
           <h3>
-            10:30am - 5pm
+            10:30am - 5:30pm
           </h3>
           <h3>
             4 February, 2024 

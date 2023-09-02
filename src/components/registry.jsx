@@ -16,10 +16,7 @@ export const Registry = (props) => {
                       {" "}
                       <img src={d.img} alt="" />{" "}
                     </div>
-                    <div className="registry-content">
-                      <p>"{d.text}"</p>
-                      <div className="registry-meta"> - {d.name} </div>
-                    </div>
+                   
                   </div>
                 </div>
               ))

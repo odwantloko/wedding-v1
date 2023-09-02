@@ -6,24 +6,22 @@ export const Story = (props) => {
     <div id="story" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Story</h2>
-           
         </div>
         <div className="row">
+          <h2>Our Story</h2>  
           <div className="story-items">
-            {props.data
-              ? props.data.map((d, i) => (
-                  <div
-                    key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
-                  >
-                    <Image
-                      largeImage={d.largeImage}
-                      smallImage={d.smallImage}
-                    />
+          {props.data
+            ? props.data.map((d, i) => (
+                <div key={`${d.name}-${i}`} className="col-md-4">
+                  <div className="registry">
+                    <div className="registry-content">
+                    <div className="registry-meta"><h3>{d.name}</h3> </div>
+                      <p>{d.text}</p>
+                    </div>
                   </div>
-                ))
-              : "Loading..."}
+                </div>
+              ))
+            : "loading"}
           </div>
         </div>
       </div>
