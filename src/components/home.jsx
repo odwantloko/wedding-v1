@@ -13,6 +13,7 @@ export const Home = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <br/><br/>
                 <h2>
                   {props.data ? props.data.date : "Loading"}
                   <span></span>

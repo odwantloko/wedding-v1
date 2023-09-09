@@ -6,6 +6,12 @@ export const Registry = (props) => {
       <div className="container">
         <div className="section-title text-center">
           <h2>Registry</h2>
+          <div className="registry-content">
+            <p>Your presence on our special day means the world to us, and your love and support are the greatest gifts we could ever ask for. 
+              If you'd like to help us start this new chapter in our lives with a little something extra, we've created wedding registries to make it easier for you.
+            </p>
+        
+          </div>
         </div>
         <div className="row">
           {props.data
@@ -16,12 +22,20 @@ export const Registry = (props) => {
                       {" "}
                       <img src={d.img} alt="" />{" "}
                     </div>
+                    <div className="registry-content">
+                      <div className="registry-meta">
+                        <a href={d.link}>{d.name}</a>
+                        
+                      </div>
+                    </div>
                    
                   </div>
                 </div>
               ))
             : "loading"}
         </div>
+      <div className="row">
+      </div>
       </div>
     </div>
   );

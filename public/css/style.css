@@ -17,7 +17,7 @@ h2 {
   margin: 0 0 20px;
   font-weight: 400;
   font-size: 36px;
-  color: #fdafd5;
+  color: #fe4ea4;
 }
 h3 {
   font-size: 20px;
@@ -100,7 +100,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #ffc97b 0%, #fdafd5 100%);
+  background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -121,7 +121,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #ffc97b 0%, #fdafd5 100%) !important;
+  background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -148,7 +148,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #fdafd5 0%, #ffc97b 100%);
+  background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -161,7 +161,7 @@ hr {
 .btn-custom {
   font-family: serif;;
   color: #fff;
-  /*background-image: linear-gradient(to right, #fdafd5 0%, #ffc97b 100%);*/
+  /*background-image: linear-gradient(to right, #fe4ea4 0%, #ffc97b 100%);*/
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -230,7 +230,7 @@ a:focus,
 
 .intro h1 span {
   font-weight: 400;
-  color: #fdafd5;
+  color: #fe4ea4;
 }
 
 .intro p {
@@ -243,7 +243,7 @@ a:focus,
 }
 header .intro-text {
   padding-top: 350px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   text-align: center;
 }
 /* Our Story --> Features Section */
@@ -259,14 +259,14 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #ffc97b 0%, #fdafd5 100%);
+  background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #story h2 {
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
-  color: #fdafd5;
+  color: #fe4ea4;
  
 }
 
@@ -278,8 +278,8 @@ header .intro-text {
 
 /* Details Section */
 #details {
-  padding: 100px 0;
-  background: linear-gradient(to right, #fdafd5 0%,  #ffc97b 100%);
+  padding: 50px 0;
+  background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%);
   color: #fff;
 }
 #details .details-desc {
@@ -303,7 +303,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #fdafd5 0%,  #ffc97b 100%);
+  background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%);
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -313,6 +313,13 @@ header .intro-text {
   padding: 5px 0;
   color: #fff;
 }
+
+#details h4 {
+  font-weight: 400;
+  padding: 5px 0;
+  color: #fff;
+}
+
 #details p {
   color: rgba(255, 255, 255, 0.75);
 }
@@ -369,7 +376,7 @@ header .intro-text {
 }
 /* Registry Section */
 #registry {
-  padding: 100px 0;
+  padding: 50px 10px;
   background: #f6f6f6;
 }
 #registry i {
@@ -399,13 +406,21 @@ header .intro-text {
 .registry-content p {
   margin-bottom: 0;
   font-size: 16px;
-  font-style: italic;
 }
-.registry-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
+.registry-meta a {
+  color: #f864ac;
+  font-style: bold;
+  text-decoration: underline;
+
+
+}
+.registry-meta h3 {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #f864ac;
+  font-style: italic;
+
 }
 /* Team Section */
 #team {
@@ -428,7 +443,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #ffc97b 0%, #fdafd5 100%);
+  background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -441,7 +456,7 @@ header .intro-text {
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
-  color: #fdafd5;
+  color: #fe4ea4;
 }
 #contact .section-title h2::after {
   position: absolute;

@@ -62,12 +62,8 @@
       "img": "img/testimonials/02.jpg",
       "text": "And now, as we eagerly look ahead to February 2024, we are thrilled to announce that we are officially tying the knot. Surrounded by our closest friends and beloved family members, we can't wait to begin this new chapter in our lives as husband and wife.",
       "name": "Tying the Knot"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "We invite you to join us on this extraordinary journey as we celebrate our love, our bond, and the beautiful story that has brought us here. Thank you for being a part of our love story, including our adventures with Vinnie!",
-      "name": ""
     }
+  
   ],
   "GettingThere": [
     {
@@ -135,14 +131,14 @@
   ],
   "Registry": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "img": "img/yuppiechef-logo.gif",
+      "link":"https://www.yuppiechef.com/registry.htm?action=view&orderid=7257958",
+      "name": "Yuppie Chef Registry"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "img": "img/wrapistry.png",
+      "link":"https://wrapistry.shop/giftregistry/odwaandnelson",
+      "name": "Wrapistry"
     }
   ],
   "Team": [
