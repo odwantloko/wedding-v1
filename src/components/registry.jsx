@@ -21,11 +21,13 @@ export const Registry = (props) => {
                     <div className="registry-image">
                       {" "}
                       <img src={d.img} alt="" />{" "}
+
                     </div>
                     <div className="registry-content">
                       <div className="registry-meta">
-                        <a href={d.link}>{d.name}</a>
-                        
+                        <p>
+                          <a href={d.link}>{d.name}</a>
+                        </p>
                       </div>
                     </div>
                    

@@ -276,6 +276,48 @@ header .intro-text {
 }
 
 
+/* Getting There --> Features Section */
+#getting-there {
+  background: #fff;
+}
+#getting-there i.fa {
+  font-size: 38px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#getting-there h2 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  color: #fe4ea4;
+ 
+}
+
+#getting-there h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  color: #fe4ea4;
+ 
+}
+
+#getting-there .story-items {
+  margin: 1px -15px 0 -14px;
+  padding: 0;
+}
+
+#getting-there .story-items img{
+  padding: 30px;
+
+}
+
 /* Details Section */
 #details {
   padding: 50px 0;
@@ -344,14 +386,8 @@ header .intro-text {
   text-align: center;
   margin: 0 auto;
   color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
   padding: 30% 0 0;
   height: 100%;
-  width: 100%;
   opacity: 0;
   transition: all 0.5s;
 }
