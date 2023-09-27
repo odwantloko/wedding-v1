@@ -6,6 +6,9 @@ export const Details = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>The Details</h2>
+          <div className="section-title">
+            <h3>123 Days to go!</h3>
+          </div>
           <h3>
             Please join us on the 4th of February, 2024 at Hedgehog's Nest, Rustenburg
           </h3>
