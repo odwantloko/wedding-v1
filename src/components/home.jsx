@@ -8,13 +8,12 @@ export const Home = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
-                
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
                 <h1>
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
-                  <br/><br/>
                 </h1>
+                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <br/><br/>
                 <h2>
                   {props.data ? props.data.date : "Loading"}
                   <span></span>
