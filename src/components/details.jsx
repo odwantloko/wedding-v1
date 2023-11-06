@@ -7,16 +7,17 @@ export const Details = (props) => {
         <div className="section-title">
           <h2>The Details</h2>
           <div className="section-title">
-            <h3>123 Days to go!</h3>
+        
+            <h3></h3>
           </div>
           <h3>
-            Please join us on the 4th of February, 2024 at Hedgehog's Nest, Rustenburg
+            Join us on the 4th of February, 2024 at Hedgehog's Nest, Rustenburg
           </h3>
           <h4>
-            10:30am - 5:30pm
+            11:30am 
           </h4>
           <br/><br/><br/><br/>
-          <p>The wedding ceremony and the reception will be taking place at the same venue.</p>
+          <p>The reception to follow at the same venue.</p>
           <br/><br/>
           <h3>
             Dress Code: Wedding formal

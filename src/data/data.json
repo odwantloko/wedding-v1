@@ -1,7 +1,7 @@
 {
   "Home": {
     "title": "Nelson & Odwa",
-    "paragraph": "Together with our families, joyfully invite you to our wedding celebration",
+    "paragraph": "You are cordially invited to the wedding of",
     "date": "4th February, 2024",
     "address": "Hedgehog's Nest, Rustenburg"
 
@@ -67,29 +67,46 @@
   ],
   "GettingThere": [
     {
-      "title": "Activity 1",
-      "smallImage": "img/portfolio/01-small.jpg",
-      "link":""
+      "title": "Thaba Legae Guest Lodge",
+      "smallImage": "img/accom/thaba.png",
+      "link":"https://book.nightsbridge.com/32757/",
+      "map":"https://maps.app.goo.gl/L7g1nwav6NcFYJNk7",
+      "distance":"2.5km away from the wedding venue"
     },
     {
-      "title": "Project Title",
-      "smallImage": "img/portfolio/02-small.jpg",
-      "link":""
+      "title": "King's Palace Hotel",
+      "smallImage": "img/accom/kings.png",
+      "link":"http://www.kingspalacehotel.co.za/",
+      "map":"https://maps.app.goo.gl/s3EAmALBPDMAGjzaA",
+      "distance":"4.3km away from the wedding venue"
     },
     {
-      "title": "Project Title",
-      "smallImage": "img/portfolio/03-small.jpg",
-      "link":""
+      "title": "Orion Safari Lodge",
+      "smallImage": "img/accom/orion.png",
+      "link":"https://www.orionhotels.co.za/ohotel/safari-hotel-convention-centre/",
+      "map":"https://maps.app.goo.gl/ZcwAz3iDC3gQFTxp6",
+      "distance":"5.8km away from the wedding venue"
     },
     {
-      "title": "Project Title",
-      "smallImage": "img/portfolio/04-small.jpg",
-      "link":""
+      "title": "Seokobale Guesthouse",
+      "smallImage": "img/accom/divine.png",
+      "link":"https://book.nightsbridge.com/29040?nbid=952&startdate=2024-02-03&enddate=2024-02-05",
+      "map":"https://maps.app.goo.gl/YJZAhm9RmrhrAGVE7",
+      "distance":"8.7km away from the wedding venue"
     },
     {
-      "title": "Project Title",
-      "smallImage": "img/portfolio/05-small.jpg",
-      "link":""
+      "title": "Divine Guest House",
+      "smallImage": "img/accom/divine.png",
+      "link":"https://divineguestlodge.traveleto.com/",
+      "map":"",
+      "distance":"8.9km away from the wedding venue"
+    },
+    {
+      "title": "@Home Guesthouse",
+      "smallImage": "img/accom/home.png",
+      "link":"https://book.nightsbridge.com/20346?nbid=952&startdate=2024-02-03&enddate=2024-02-05",
+      "map":"",
+      "distance":"11.2km away from the wedding venue"
     }
   ],
   "Details": [
