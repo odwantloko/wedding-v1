@@ -200,7 +200,7 @@ a:focus,
   border-color: #fff;
 
 }
-/* Header Section */
+/* Header/Home Section */
 .intro {
   display: table;
   width: 100%;
@@ -618,8 +618,8 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
-  #about img {
-    margin: 50px 0;
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url('floral-small.png');
   }
 }

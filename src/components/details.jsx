@@ -13,14 +13,15 @@ export const Details = (props) => {
             Join us on the 4th of February, 2024 at Hedgehog's Nest, Rustenburg
           </h3>
             <h4>
-              11:00am for a 11:30am start
+              11:00am for an 11:30am start
             </h4>
           <br/><br/><br/><br/>
           <p>TThe reception to follow at the same venue.</p>
           <br/><br/>
           <h3>
-            Dress Code: Wedding formal. Feel free to wear whatever colours you like! (except white of course!!)
+            Dress Code: Wedding formal. 
           </h3>
+          <p>Feel free to wear whatever colours you like! (except white of course!!)</p>
           <br/><br/>
           <a
             href="#rsvp"
