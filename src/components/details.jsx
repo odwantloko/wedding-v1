@@ -10,16 +10,16 @@ export const Details = (props) => {
             <h3>123 Days to go!</h3>
           </div>
           <h3>
-            Please join us on the 4th of February, 2024 at Hedgehog's Nest, Rustenburg
+            Join us on the 4th of February, 2024 at Hedgehog's Nest, Rustenburg
           </h3>
-          <h4>
-            10:30am - 5:30pm
-          </h4>
+            <h4>
+              11:00am for a 11:30am start
+            </h4>
           <br/><br/><br/><br/>
-          <p>The wedding ceremony and the reception will be taking place at the same venue.</p>
+          <p>TThe reception to follow at the same venue.</p>
           <br/><br/>
           <h3>
-            Dress Code: Wedding formal
+            Dress Code: Wedding formal. Feel free to wear whatever colours you like! (except white of course!!)
           </h3>
           <br/><br/>
           <a
