@@ -28,7 +28,7 @@ const App = () => {
       <Navigation />
       <Home data={landingPageData.Home} />
       <Story data={landingPageData.Story} /> {/** our story */}
-      <Gallery data={landingPageData.Gallery} /> {/** our story */}
+      {/* <Gallery data={landingPageData.Gallery} /> * pictures */}
        {/** <Team data={landingPageData.Team} /> bridal party */}
       <Details data={landingPageData.Details} />  {/** the details venue + time */}
       {/** <Contact data={landingPageData.Contact} />  RSVP .. might make it a separate page from a button*/} 
