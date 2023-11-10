@@ -1,26 +1,26 @@
-import { Image } from "./image";
+import { ImageCarousel } from "./imageCarousel";
 import React from "react";
 
+
 export const Gallery = (props) => {
-  return (
+    return (
     <div id="story" className="text-center">
       <div className="container">
         <div className="row">
-          <div className="story-items">
             {props.data
-              ? props.data.map((d, i) => (
-               <div key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4" 
-                  >
-                    <Image
-                      smallImage={d.smallImage}
-                    />            
-                  </div>
-                ))
+              ?
+                <ImageCarousel dataArray={props.data} />
               : "Loading..."}
-          </div>
         </div>
       </div>
     </div>
   );
 };
+
+
+//                        <img src={d.smallImage} className="img-responsive" />
+// props.data.map((d, i) => (
+//     <div key={`${i}`}>
+//         <ImageCarousel dataArray={d.smallImage} />
+//     </div>
+// ))

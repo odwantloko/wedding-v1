@@ -14,18 +14,7 @@ export const Story = (props) => {
           <div className="story-items">
           {props.data
             ? 
-            <ReadMoreSection dataArray={props.data} maxLength={1} />
-            // props.data.map((d, i) => (
-            //     <div key={`${d.name}-${i}`} className="col-md-4">
-            //       <div className="registry">
-            //         <div className="registry-content">
-            //         <div className="registry-meta"><h3>{d.name}</h3> </div>
-            //           <p>{d.text}</p>
-
-            //         </div>
-            //       </div>
-            //     </div>
-            //   ))
+              <ReadMoreSection dataArray={props.data} maxLength={1} />
             : "loading"}
 
           </div>
