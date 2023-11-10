@@ -1,5 +1,4 @@
 import React from "react";
-import CountdownTimer from './countdownTimer';
 
 export const Details = (props) => {
 

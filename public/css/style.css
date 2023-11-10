@@ -43,6 +43,7 @@ p.intro {
 a {
   color: #ffc97b;
   font-weight: 400;
+  font-style: italic;
 }
 a:hover,
 a:focus {
@@ -693,11 +694,14 @@ label {
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
-  padding: 30px 0;
+  padding: 40px 0px 10px 5px;
+  margin: 0px;
 }
 #footer p {
   color: #888;
-  font-size: 14px;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
 }
 #footer a {
   color: #fe4ea4;
@@ -705,6 +709,8 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #fe4ea4;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   .intro {

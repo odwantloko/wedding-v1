@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export const GettingThere = (props) => {
   return (
@@ -13,6 +13,8 @@ export const GettingThere = (props) => {
             Hedgehog's nest 
             </a>
           </p>
+
+          <p> </p>
         </div>
       </div>
     </div>
