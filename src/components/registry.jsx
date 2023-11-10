@@ -8,7 +8,7 @@ export const Registry = (props) => {
           <h2>Registry</h2>
           <div className="registry-content">
             <p>Your presence on our special day means the world to us, and your love and support are the greatest gifts we could ever ask for. 
-              If you'd like to help us start this new chapter in our lives with a little something extra, we've created wedding registries to make it easier for you.
+              If you'd like to help us start this new chapter in our lives with a little something extra, we have some options below:
             </p>
         
           </div>

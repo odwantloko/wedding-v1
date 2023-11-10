@@ -11,6 +11,7 @@ import { Contact } from "./components/contact"; // rsvp
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import { Accomodation } from "./components/accomodation";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -33,6 +34,7 @@ const App = () => {
       <Details data={landingPageData.Details} />  {/** the details venue + time */}
       {/** <Contact data={landingPageData.Contact} />  RSVP .. might make it a separate page from a button*/} 
       <GettingThere data={landingPageData.GettingThere} /> {/** Getting there - venue plus nearby accom */}
+      <Accomodation data={landingPageData.GettingThere} /> {/** Getting there - venue plus nearby accom */}
       <Registry data={landingPageData.Registry} /> {/** registry details */}
     </div>
   );

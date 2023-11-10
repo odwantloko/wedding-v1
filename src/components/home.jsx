@@ -7,8 +7,11 @@ export const Home = (props) => {
         <div className="overlay">
           <div className="container">
             <div className="row">
+              
               <div className="col-md-8 col-md-offset-2 intro-text">
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+              <div>
+              <p>{props.data ? props.data.paragraph : "Loading"}</p>
+              </div>
                 <h1>
                   {props.data ? props.data.title : "Loading"}
                   <span></span>

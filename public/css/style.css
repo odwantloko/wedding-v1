@@ -131,10 +131,10 @@ hr {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: #fe4ea4;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #fe4ea4;
 }
 .section-title {
   margin-bottom: 70px;
@@ -205,7 +205,8 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/floral-live-bg.jpeg) center center no-repeat;
+  background: url(../img/floral-live-bg.jpeg)center center no-repeat;
+  
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -226,6 +227,8 @@ a:focus,
 
 .intro h2 {
   color: #fff;
+  font-weight: 400;
+
 }
 
 .intro h1 span {
@@ -236,13 +239,13 @@ a:focus,
 .intro p {
   color: #fff;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 250px;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -277,10 +280,10 @@ header .intro-text {
 
 
 /* Getting There --> Features Section */
-#getting-there {
-  background: #fff;
+#gettingThere {
+  background: #f6f6f6;
 }
-#getting-there i.fa {
+#gettingThere i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
@@ -292,7 +295,7 @@ header .intro-text {
   background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#getting-there h2 {
+#gettingThere h2 {
   margin-top: 25px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -300,7 +303,7 @@ header .intro-text {
  
 }
 
-#getting-there h3 {
+#gettingThere h3 {
   margin-top: 5px;
   margin-bottom: 5px;
   padding-bottom: 5px;
@@ -308,12 +311,54 @@ header .intro-text {
  
 }
 
-#getting-there .story-items {
+#gettingThere .story-items {
   margin: 1px -15px 0 -14px;
   padding: 0;
 }
 
-#getting-there .story-items img{
+#gettingThere .story-items img{
+  padding: 30px;
+
+}
+
+/* Accom */
+#accomodation {
+  background: #fff;
+}
+#accomodation i.fa {
+  font-size: 38px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
+  border-radius: 50%;
+  background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#accomodation h2 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  color: #fe4ea4;
+ 
+}
+
+#accomodation h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  color: #fe4ea4;
+ 
+}
+
+#accomodation .story-items {
+  margin: 1px -15px 0 -14px;
+  padding: 0;
+}
+
+#accomodation .story-items img{
   padding: 30px;
 
 }
@@ -599,7 +644,7 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #fe4ea4;
   background: #fff;
 }
 /* Footer Section*/
@@ -612,14 +657,17 @@ label {
   font-size: 14px;
 }
 #footer a {
-  color: #608dfd;
+  color: #fe4ea4;
 }
 #footer a:hover {
-  border-bottom: 2px solid #608dfd;
+  border-bottom: 2px solid #fe4ea4;
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-image: url('floral-small.png');
+  .intro {
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/floral-small.png);
+
   }
 }
