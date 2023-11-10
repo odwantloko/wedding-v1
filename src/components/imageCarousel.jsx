@@ -26,7 +26,7 @@ export const ImageCarousel = ({ dataArray }) => {
     return (
         <Slider {...settings}>
             {dataArray.map((image, id) => (
-                <img src={image.smallImage} className="img-responsive"  alt={`slide ${image.id}`} />
+                <img src={image.smallImage} className="img-responsive"  alt={`slide ${id}`} />
             ))}
         </Slider>
     );
