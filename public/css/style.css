@@ -278,6 +278,49 @@ header .intro-text {
   padding: 0;
 }
 
+#story .btn-custom {
+  font-family: serif;;
+  color: #fe4ea4;
+  /*background-image: linear-gradient(to right, #fe4ea4 0%, #ffc97b 100%);*/
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  border-color: #fe4ea4;
+  transition: all 0.5s linear;
+  border: 1px solid #fe4ea4;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active {
+  color: #fff;
+  border-color: #fff;
+  background-image: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  outline-offset: none;
+  border-color: #fff;
+
+}
+
 
 /* Getting There --> Features Section */
 #gettingThere {

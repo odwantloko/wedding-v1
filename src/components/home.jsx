@@ -1,6 +1,9 @@
 import React from "react";
+import CountdownTimer from './countdownTimer';
 
 export const Home = (props) => {
+  const targetDate = new Date("Feb 4, 2024 11:00:00").getTime();
+
   return (
     <header id="home">
       <div className="intro">
@@ -22,6 +25,9 @@ export const Home = (props) => {
                   <span></span>
                 </h2>
                 <p>{props.data ? props.data.address : "Loading"}</p>
+                <p> 
+              <CountdownTimer targetDate={targetDate} />
+            </p>
                 <a
                   href="#details"
                   className="btn btn-custom btn-lg page-scroll"

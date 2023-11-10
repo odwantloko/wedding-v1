@@ -1,6 +1,11 @@
 import React from "react";
+import CountdownTimer from './countdownTimer';
 
 export const Details = (props) => {
+
+  const targetDate = new Date("Feb 4, 2024 11:00:00").getTime();
+
+
   return (
     <div id="details" className="text-center">
       <div className="container">
@@ -28,6 +33,7 @@ export const Details = (props) => {
           >
             RSVP
           </a>{" "}
+
         </div>
       </div>
     </div>
