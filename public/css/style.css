@@ -7,6 +7,8 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
+  overflow-x: hidden;
+
 }
 h2,
 h3,
@@ -708,6 +710,14 @@ label {
 }
 #footer a:hover {
   border-bottom: 2px solid #fe4ea4;
+}
+
+.img-responsive{
+  padding-top: 40px;
+  padding-bottom: 0px;
+  width: auto;
+  height: auto;
+
 }
 
 

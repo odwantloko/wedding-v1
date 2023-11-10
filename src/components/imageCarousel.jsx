@@ -7,11 +7,11 @@ export const ImageCarousel = ({ dataArray }) => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 3,
+        speed: 2,
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true, // Enable autoplay
-        autoplaySpeed: 4000, // Set the delay between slides (in milliseconds)
+        autoplaySpeed: 4800, // Set the delay between slides (in milliseconds)
         responsive: [
             {
                 breakpoint: 600, // Adjust breakpoint as needed
@@ -26,9 +26,7 @@ export const ImageCarousel = ({ dataArray }) => {
     return (
         <Slider {...settings}>
             {dataArray.map((image, id) => (
-                <div key={image.id}>
-                    <img src={image.smallImage} className="img-responsive"  alt={`slide ${image.id}`} />
-                </div>
+                <img src={image.smallImage} className="img-responsive"  alt={`slide ${image.id}`} />
             ))}
         </Slider>
     );

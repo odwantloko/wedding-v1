@@ -4,8 +4,8 @@ import React from "react";
 
 export const Gallery = (props) => {
     return (
-    <div id="story" className="text-center">
-      <div className="container">
+    <div>
+      <div>
         <div className="row">
             {props.data
               ?

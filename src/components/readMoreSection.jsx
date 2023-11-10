@@ -54,8 +54,9 @@ const ReadMoreSection = ({ dataArray, maxLength }) => {
             ))}
       </ul>
       {isSmallScreen && dataArray.length > maxLength && (
+        expanded? <br/> :
         <button onClick={handleToggle} className="btn btn-custom btn-lg page-scroll">
-          {expanded ? 'Read Less' : 'Read More'}
+          Read More
         </button>
       )}
     </div>

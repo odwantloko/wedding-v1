@@ -1,9 +1,9 @@
 import React from "react";
 import ReadMoreSection from './readMoreSection';
+import { ImageCarousel } from "./imageCarousel";
 
 
 export const Story = (props) => {
-  const initialText = "Test"
   return (
     <div id="story" className="text-center">
       <div className="container">
@@ -14,7 +14,10 @@ export const Story = (props) => {
           <div className="story-items">
           {props.data
             ? 
+            <>
               <ReadMoreSection dataArray={props.data} maxLength={1} />
+              <ImageCarousel dataArray={props.data} />
+            </>   
             : "loading"}
 
           </div>
