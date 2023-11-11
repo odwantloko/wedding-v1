@@ -37,7 +37,6 @@ export const Registry = (props) => {
             : "loading"}
         </div>
       <div id="footer">
-        {/* <p>This website has been made with Love, by the bride :)</p> */}
       </div>
       </div>
     </div>
