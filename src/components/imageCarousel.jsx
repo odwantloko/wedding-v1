@@ -7,7 +7,7 @@ export const ImageCarousel = ({ dataArray }) => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 2,
+        speed: 5,
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true, // Enable autoplay
