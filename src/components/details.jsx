@@ -18,7 +18,7 @@ export const Details = (props) => {
             <h4>
               11:00am for an 11:30am start
             </h4>
-          <br/><br/><br/><br/>
+          <br/><br/><br/><br/> 
           <p>The reception will follow at the same location .</p>
           <br/><br/>
           <h3>
