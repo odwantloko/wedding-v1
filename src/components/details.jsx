@@ -19,7 +19,7 @@ export const Details = (props) => {
               11:00am for an 11:30am start
             </h4>
           <br/><br/><br/><br/>
-          <p>The reception to follow at the same venue.</p>
+          <p>The reception will follow at the same location .</p>
           <br/><br/>
           <h3>
             Dress Code: Wedding formal. 
