@@ -30,7 +30,7 @@ const CountdownTimer = ({ targetDate }) => {
   return (
     <div>
       <div>
-        <p>{timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s</p>
+        <p><b>{timeLeft.days}d {timeLeft.hours}h {timeLeft.minutes}m {timeLeft.seconds}s</b><br/>to go!</p>
       </div>
     </div>
   );
