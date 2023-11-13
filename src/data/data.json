@@ -46,37 +46,66 @@
     {
       "title": "Thaba Legae Guest Lodge",
       "smallImage": "img/accom/thaba.png",
-      "link":"https://book.nightsbridge.com/32757/",
+      "link":"https://thabalegae.co.za/accommodation",
       "map":"https://maps.app.goo.gl/L7g1nwav6NcFYJNk7",
-      "distance":"2.5km away from the wedding venue"
+      "distance":"2.5km away from the wedding venue",
+      "contact":"014 592 0066"
     },
     {
       "title": "King's Palace Hotel",
       "smallImage": "img/accom/kings.png",
       "link":"http://www.kingspalacehotel.co.za/",
       "map":"https://maps.app.goo.gl/s3EAmALBPDMAGjzaA",
-      "distance":"4.3km away from the wedding venue"
+      "distance":"4.3km away from the wedding venue",
+      "contact":"010 109 0947"
     },
     {
       "title": "Orion Safari Lodge",
       "smallImage": "img/accom/orion.png",
       "link":"https://www.orionhotels.co.za/ohotel/safari-hotel-convention-centre/",
       "map":"https://maps.app.goo.gl/ZcwAz3iDC3gQFTxp6",
-      "distance":"5.8km away from the wedding venue"
-    },
-    {
-      "title": "Seokobale Guesthouse",
-      "smallImage": "img/accom/divine.png",
-      "link":"https://book.nightsbridge.com/29040?nbid=952&startdate=2024-02-03&enddate=2024-02-05",
-      "map":"https://maps.app.goo.gl/YJZAhm9RmrhrAGVE7",
-      "distance":"8.7km away from the wedding venue"
+      "distance":"5.8km away from the wedding venue",
+      "contact":"014 597 9000"
     },
     {
       "title": "Divine Guest House",
       "smallImage": "img/accom/divine.png",
       "link":"https://divineguestlodge.traveleto.com/",
-      "map":"",
-      "distance":"8.9km away from the wedding venue"
+      "map":"https://maps.app.goo.gl/3X2QhY6qFiyaAxpd6",
+      "distance":"8.9km away from the wedding venue",
+      "contact":"081 817 2554"
+    },
+    {
+      "title": "Sunset Ridge Guest House",
+      "smallImage": "img/accom/sunset-ridge.png",
+      "link":"https://sunsetridge.inn.fan/",
+      "map":"https://maps.app.goo.gl/riTUBeg5muPYnnR98",
+      "distance":"11.3km away from the wedding venue",
+      "contact":"014 533 0222"
+    },
+    {
+      "title": "Ons Dorpshuis",
+      "smallImage": "img/accom/onsdorpshuis.png",
+      "link":"https://book.nightsbridge.com/13642?nbid=952&startdate=2024-02-04&enddate=2024-02-06",
+      "map":"https://maps.app.goo.gl/Gie9JUSowdbyLQCq5",
+      "distance":"11.5km away from the wedding venue",
+      "contact":"014 592 4677"
+    },
+    {
+      "title": "Road Lodge",
+      "smallImage": "img/accom/roadlodge.png",
+      "link":"https://citylodgehotels.com/hotels/368/road-lodge-rustenburg#book_a_hotel",
+      "map":"https://maps.app.goo.gl/gVTNdNvkmSLJgi5G8",
+      "distance":"12.5km away from the wedding venue",
+      "contact":"014 537 3088"
+    },
+    {
+      "title": "Stay Easy",
+      "smallImage": "img/accom/stayeasy.png",
+      "link":"https://www.southernsun.com/stayeasy-rustenburg",
+      "map":"https://maps.app.goo.gl/msC4oJRPyWKocSdB6",
+      "distance":"12.6km away from the wedding venue",
+      "contact":"014 537 6540"
     }
   ],
   "Registry": [
