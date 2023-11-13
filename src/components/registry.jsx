@@ -18,25 +18,25 @@ export const Registry = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
                   <div className="registry">
+
                     <div className="registry-image">
                       {" "}
                       <img src={d.img} alt="" />{" "}
 
                     </div>
-                    <div className="registry-content">
-                      <div className="registry-meta">
-                        <p>
-                          <a href={d.link}>{d.name}</a>
-                        </p>
-                      </div>
-                    </div>
                    
+                  </div>
+                  <div className="registry-meta">
+                  <a href={d.link}>                   
+                      {d.name}
+                  </a>
                   </div>
                 </div>
               ))
             : "loading"}
         </div>
       <div id="footer">
+        Thank you for your love & support, <br/>The Kadamas
       </div>
       </div>
     </div>

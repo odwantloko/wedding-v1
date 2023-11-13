@@ -43,15 +43,14 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #ffc97b;
+  color: #ff9800;
   font-weight: 400;
   font-style: italic;
-  text-decoration: underline;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #ffc97b;
+  color: #ff9800;
 }
 ul,
 ol {
@@ -371,6 +370,10 @@ a:focus,
 /* Accom */
 #accomodation {
   background: #fff;
+}
+#accomodation a {
+  text-decoration: underline;
+
 }
 #accomodation i.fa {
   font-size: 38px;
@@ -699,6 +702,9 @@ label {
   background: #f6f6f6;
   padding: 40px 0px 10px 5px;
   margin: 0px;
+  text-align: center;
+  font-style: italic;
+
 }
 #footer p {
   color: #888;
