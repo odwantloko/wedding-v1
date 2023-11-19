@@ -12,14 +12,14 @@ export const Home = (props) => {
             <div className="row">
               
               <div className="col-md-8 col-md-offset-2 intro-text">
-              <div>
-              <p>{props.data ? props.data.paragraph : "Loading"}</p>
-              </div>
+              
                 <h1>
                   {props.data ? props.data.title : "Loading"}
                   <span></span>
-                  <br/><br/>
                 </h1>
+                <div>
+              <p>{props.data ? props.data.paragraph : "Loading"}</p>
+              </div>
                 <h2>
                   {props.data ? props.data.date : "Loading"}
                   <span></span>

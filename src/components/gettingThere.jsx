@@ -1,4 +1,5 @@
 import React from 'react';
+import ReadMoreSection from './readMoreSection';
 
 export const GettingThere = (props) => {
   return (
@@ -15,23 +16,13 @@ export const GettingThere = (props) => {
             </a>
           </p>
           <br/>
-          <p> 
-            For those of you travelling from Cape Town, you have 2 main options.
-          </p>
-          <h3>
-            Option 1: Road Trip!!
-          </h3>
-          <p>
-            Driving from Cape Town to Rustenburg, it is about a 15 hour drive. It is recommended that you split the drive over 2 days with a sleepover stop in Kimberley. This is a 10 hour drive. From Kimberley, you will be 5 hours away from Rustenburg.
-          </p>
-          <h3>
-            Option 2: The savvy timesaver
-          </h3>
-          <p>
-            You could fly directly from Cape Town Internation Airport to Lanseria International airport in Pretoria and hire a car for your time in Rustenburg.
-            The fastest route from Lanseria airport to Rustenburg is 1hr 22min. Flying to OR Tambo international airport is also an option but adds about 30-40 min to your journey.
-          </p>
-          <p> </p>
+          {props.data
+            ? 
+            <>
+              <ReadMoreSection dataArray={props.data} maxLength={1} buttonText={"Show Options"} />
+            </>   
+            : "loading"}
+
         </div>
       </div>
     </div>

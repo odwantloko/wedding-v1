@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const ReadMoreSection = ({ dataArray, maxLength }) => {
+const ReadMoreSection = ({ dataArray, maxLength, buttonText }) => {
   const [expanded, setExpanded] = useState(window.innerWidth > 600);
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 600);
 
@@ -34,7 +34,7 @@ const ReadMoreSection = ({ dataArray, maxLength }) => {
                 <div className="registry">
                 <div className="registry-content">
                 <div className="registry-meta"><h3>{item.name}</h3> </div>
-                    <p>{item.text}..</p>
+                    <p>{item.text}</p>
 
                 </div>
                 </div>
@@ -56,7 +56,7 @@ const ReadMoreSection = ({ dataArray, maxLength }) => {
       {isSmallScreen && dataArray.length > maxLength && (
         expanded? <br/> :
         <button onClick={handleToggle} className="btn btn-custom btn-lg page-scroll">
-          Read More
+          {buttonText}
         </button>
       )}
     </div>

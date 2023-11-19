@@ -1,7 +1,7 @@
 {
   "Home": {
     "title": "Nelson & Odwa",
-    "paragraph": "You are cordially invited to the destination wedding of",
+    "paragraph": "Together with our families, cordially invite you to share in the joy at our wedding celebration",
     "date": "4th February, 2024",
     "address": "Hedgehog's Nest, Rustenburg"
 
@@ -42,7 +42,22 @@
     }
   
   ],
-  "GettingThere": [
+  "GettingThere":[
+    {
+      "name":"",
+      "text":"For those of you travelling from Cape Town, you have 2 main options"    
+    },
+    {
+      "name":"Option 1: Road Trip!!",
+      "text":"Driving from Cape Town to Rustenburg, it is about a 15 hour drive. It is recommended that you split the drive over 2 days with a sleepover stop in Kimberley. This is a 10 hour drive. From Kimberley, you will be 5 hours away from Rustenburg."    
+    },
+    {
+      "name":"Option 2: The savvy timesaver",
+      "text":"You could fly directly from Cape Town Internation Airport to Lanseria International airport in Pretoria and hire a car for your time in Rustenburg. The fastest route from Lanseria airport to Rustenburg is 1hr 22min. Flying to OR Tambo international airport is also an option but adds about 30-40 min to your journey."    
+    }
+
+  ],
+  "Accomodation": [
     {
       "title": "Thaba Legae Guest Lodge",
       "smallImage": "img/accom/thaba.png",
@@ -113,11 +128,6 @@
       "img": "img/yuppiechef-logo.gif",
       "link":"https://www.yuppiechef.com/registry.htm?action=view&orderid=7257958",
       "name": "Yuppie Chef Registry"
-    },
-    {
-      "img": "img/honey-moon.png",
-      "link":"QR Code link?",
-      "name": "Honeymoon Cashfund"
     }
   ]
 }

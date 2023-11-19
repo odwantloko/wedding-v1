@@ -27,7 +27,7 @@ export const Details = (props) => {
           <p>Feel free to wear whatever colours you like! (except for white of course!)</p>
           <br/><br/>
           <a
-            href="#rsvp"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScOsARSJfJy0nLJ3G2h4fApeKJJm6kDNgbQihKZTGX2VIrNQQ/viewform?usp=sf_link"
             className="btn btn-custom btn-lg page-scroll"
           >
             RSVP

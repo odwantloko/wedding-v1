@@ -32,9 +32,8 @@ const App = () => {
         {/* <Gallery data={landingPageData.Gallery} /> */}
        {/** <Team data={landingPageData.Team} /> bridal party */}
       <Details data={landingPageData.Details} />  {/** the details venue + time */}
-      {/** <Contact data={landingPageData.Contact} />  RSVP .. might make it a separate page from a button*/} 
       <GettingThere data={landingPageData.GettingThere} /> {/** Getting there - venue plus nearby accom */}
-      <Accomodation data={landingPageData.GettingThere} /> {/** Getting there - venue plus nearby accom */}
+      <Accomodation data={landingPageData.Accomodation} /> {/** Getting there - venue plus nearby accom */}
       <Registry data={landingPageData.Registry} /> {/** registry details */}
     </div>
   );
