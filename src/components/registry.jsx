@@ -16,7 +16,6 @@ export const Registry = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-4">
                   <div className="registry">
 
                     <div className="registry-image">
@@ -25,7 +24,6 @@ export const Registry = (props) => {
 
                     </div>
                    
-                  </div>
                   <div className="registry-meta">
                   <a href={d.link}>                   
                       {d.name}

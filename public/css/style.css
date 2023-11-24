@@ -247,7 +247,7 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -331,7 +331,7 @@ a:focus,
 
 #gettingThere .btn-custom {
   font-family: serif;;
-  color: #fff;
+  color: #fe4ea4;
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -340,7 +340,7 @@ a:focus,
   border-radius: 25px;
   border-color: #fe4ea4;
   transition: all 0.5s linear;
-  border: 1px solid #fff;
+  border: 1px solid #fe4ea4;
 }
 
 #gettingThere i.fa {

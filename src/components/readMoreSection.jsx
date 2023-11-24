@@ -30,7 +30,7 @@ const ReadMoreSection = ({ dataArray, maxLength, buttonText }) => {
       <ul>
         {expanded
           ? dataArray.map((item, index) => (
-            <div key={`${item.name}-${index}`} className="col-md-4">
+            <div key={`${item.name}-${index}`} className="col-md-12">
                 <div className="registry">
                 <div className="registry-content">
                 <div className="registry-meta"><h3>{item.name}</h3> </div>
@@ -41,7 +41,7 @@ const ReadMoreSection = ({ dataArray, maxLength, buttonText }) => {
             </div>
             ))
           : dataArray.slice(0, maxLength).map((item, index) => (
-            <div key={`${item.name}-${index}`} className="col-md-4">
+            <div key={`${item.name}-${index}`} className="col-md-12">
                 <div className="registry">
                 <div className="registry-content">
                 <div className="registry-meta"><h3>{item.name}</h3> </div>

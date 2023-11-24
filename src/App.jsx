@@ -26,15 +26,13 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
+      {/* <Navigation /> */}
       <Home data={landingPageData.Home} />
-      <Story data={landingPageData.Story} /> {/** our story */}
-        {/* <Gallery data={landingPageData.Gallery} /> */}
-       {/** <Team data={landingPageData.Team} /> bridal party */}
-      <Details data={landingPageData.Details} />  {/** the details venue + time */}
-      <GettingThere data={landingPageData.GettingThere} /> {/** Getting there - venue plus nearby accom */}
-      <Accomodation data={landingPageData.Accomodation} /> {/** Getting there - venue plus nearby accom */}
-      <Registry data={landingPageData.Registry} /> {/** registry details */}
+      <Story data={landingPageData.Story} /> 
+      <Details data={landingPageData.Details} /> 
+      <GettingThere data={landingPageData.GettingThere} /> 
+      <Accomodation data={landingPageData.Accomodation} /> 
+      <Registry data={landingPageData.Registry} /> 
     </div>
   );
 };
