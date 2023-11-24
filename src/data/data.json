@@ -1,7 +1,7 @@
 {
   "Home": {
     "title": "Nelson & Odwa",
-    "paragraph": "You are cordially invited to the wedding of",
+    "paragraph": "Together with our families, cordially invite you to share in the joy of our wedding celebration",
     "date": "4th February, 2024",
     "address": "Hedgehog's Nest, Rustenburg"
 
@@ -13,70 +13,114 @@
       "smallImage": "img/lilparis.png"
     },
     {
-      "text": "As time passed, we found ourselves reunited, this time at a graduate program. What started as a casual acquaintance soon blossomed into a deep and cherished friendship. We laughed together, supported each other through thick and thin, and shared countless unforgettable moments.",
+      "text": "As time passed, we found ourselves reunited, this time at a graduate program. What started as a casual acquaintance soon blossomed into a deep and cherished friendship. We laughed together, supported each other, and shared countless unforgettable moments.",
       "name": "Friendship Blossoms",
       "smallImage": "img/chapmans-mountain.png"
 
     },
     {
-      "text": "In early 2020, we took a leap of faith that would change our lives forever. Recognizing the deep connection we shared, we decided to embark on this beautiful journey of life together. It was a decision filled with hope, love, and excitement for the future.",
+      "text": "Recognized the deep connection we shared, we decided to make things official by entering into a relationship at the beginning of 2020. It was a decision filled with hope and excitement for the future.",
       "name": "The Leap of faith",
       "smallImage": "img/lobola.png"
 
     },
     {
-      "text": "In November 2021, our love story took a delightful turn when we opened our hearts and home to a furry friend. We adopted a dog named Vinnie, who quickly became an integral part of our lives. His wagging tail, boundless energy, and unconditional love brought even more joy into our journey.",
+      "text": "Our lives together took a delightful turn when we opened our hearts and home to a furry friend. On the 12th of November 2021, we adopted the cutest dog named Vern. He quickly became an integral part of our lives. His wagging tail, boundless energy, and unconditional love brings even more joy into our journey.",
       "name": "Welcoming Vinnie into Our Lives",
       "smallImage": "img/retreat.png"
 
     },
     {
-      "text": "Fast forward to September 2022, a day etched in our hearts forever. He got down on one knee, and with trembling anticipation, he asked the question that would forever change our lives: \"Will you marry me?\" Without hesitation, she said those magical words, \"YES!\" Tears of joy and a promise of forever sealed our love.",
+      "text": "Fastforward to September 2022. I, Odwa, decided to plan a weekend staycation nearby in Simonstown. Little did I know, that Nelson had been plotting the perfect place and time to propose and had decided ",
       "name": "A Proposal to Remember",
       "smallImage": "img/knysna-horsies.png"
     },
     {
-      "text": "And now, as we eagerly look ahead to February 2024, we are thrilled to announce that we are officially tying the knot. Surrounded by our closest friends and beloved family members, we can't wait to begin this new chapter in our lives as husband and wife.",
+      "text": "And now, as we eagerly look ahead to February 2024, we are thrilled to be celebrating our wedding. Surrounded by our closest friends and beloved family members, we can't wait to begin this new chapter in our lives!",
       "name": "Tying the Knot",
-      "smallImage": "img/jpg2png/atlantis-jump.png"
+      "smallImage": "img/atlantis-jump.png"
     }
   
   ],
-  "GettingThere": [
+  "GettingThere":[
+    {
+      "name":"",
+      "text":"For those of you travelling from Cape Town, you have 2 main options"    
+    },
+    {
+      "name":"Option 1: Road Trip!!",
+      "text":"Driving from Cape Town to Rustenburg, it is about a 15 hour drive. It is recommended that you split the drive over 2 days with a sleepover stop in Kimberley. This is a 10 hour drive. From Kimberley, you will be 5 hours away from Rustenburg."    
+    },
+    {
+      "name":"Option 2: The savvy timesaver",
+      "text":"You could fly directly from Cape Town Internation Airport to Lanseria International airport in Pretoria and hire a car for your time in Rustenburg. The fastest route from Lanseria airport to Rustenburg is 1hr 22min. Flying to OR Tambo international airport is also an option but adds about 30-40 min to your journey."    
+    }
+
+  ],
+  "Accomodation": [
     {
       "title": "Thaba Legae Guest Lodge",
       "smallImage": "img/accom/thaba.png",
-      "link":"https://book.nightsbridge.com/32757/",
+      "link":"https://thabalegae.co.za/accommodation",
       "map":"https://maps.app.goo.gl/L7g1nwav6NcFYJNk7",
-      "distance":"2.5km away from the wedding venue"
+      "distance":"2.5km away from the wedding venue",
+      "contact":"014 592 0066"
     },
     {
       "title": "King's Palace Hotel",
       "smallImage": "img/accom/kings.png",
       "link":"http://www.kingspalacehotel.co.za/",
       "map":"https://maps.app.goo.gl/s3EAmALBPDMAGjzaA",
-      "distance":"4.3km away from the wedding venue"
+      "distance":"4.3km away from the wedding venue",
+      "contact":"010 109 0947"
     },
     {
       "title": "Orion Safari Lodge",
       "smallImage": "img/accom/orion.png",
       "link":"https://www.orionhotels.co.za/ohotel/safari-hotel-convention-centre/",
       "map":"https://maps.app.goo.gl/ZcwAz3iDC3gQFTxp6",
-      "distance":"5.8km away from the wedding venue"
-    },
-    {
-      "title": "Seokobale Guesthouse",
-      "smallImage": "img/accom/divine.png",
-      "link":"https://book.nightsbridge.com/29040?nbid=952&startdate=2024-02-03&enddate=2024-02-05",
-      "map":"https://maps.app.goo.gl/YJZAhm9RmrhrAGVE7",
-      "distance":"8.7km away from the wedding venue"
+      "distance":"5.8km away from the wedding venue",
+      "contact":"014 597 9000"
     },
     {
       "title": "Divine Guest House",
       "smallImage": "img/accom/divine.png",
       "link":"https://divineguestlodge.traveleto.com/",
-      "map":"",
-      "distance":"8.9km away from the wedding venue"
+      "map":"https://maps.app.goo.gl/3X2QhY6qFiyaAxpd6",
+      "distance":"8.9km away from the wedding venue",
+      "contact":"081 817 2554"
+    },
+    {
+      "title": "Sunset Ridge Guest House",
+      "smallImage": "img/accom/sunset-ridge.png",
+      "link":"https://sunsetridge.inn.fan/",
+      "map":"https://maps.app.goo.gl/riTUBeg5muPYnnR98",
+      "distance":"11.3km away from the wedding venue",
+      "contact":"014 533 0222"
+    },
+    {
+      "title": "Ons Dorpshuis",
+      "smallImage": "img/accom/onsdorpshuis.png",
+      "link":"https://book.nightsbridge.com/13642?nbid=952&startdate=2024-02-04&enddate=2024-02-06",
+      "map":"https://maps.app.goo.gl/Gie9JUSowdbyLQCq5",
+      "distance":"11.5km away from the wedding venue",
+      "contact":"014 592 4677"
+    },
+    {
+      "title": "Road Lodge",
+      "smallImage": "img/accom/roadlodge.png",
+      "link":"https://citylodgehotels.com/hotels/368/road-lodge-rustenburg#book_a_hotel",
+      "map":"https://maps.app.goo.gl/gVTNdNvkmSLJgi5G8",
+      "distance":"12.5km away from the wedding venue",
+      "contact":"014 537 3088"
+    },
+    {
+      "title": "Stay Easy",
+      "smallImage": "img/accom/stayeasy.png",
+      "link":"https://www.southernsun.com/stayeasy-rustenburg",
+      "map":"https://maps.app.goo.gl/msC4oJRPyWKocSdB6",
+      "distance":"12.6km away from the wedding venue",
+      "contact":"014 537 6540"
     }
   ],
   "Registry": [
@@ -84,42 +128,6 @@
       "img": "img/yuppiechef-logo.gif",
       "link":"https://www.yuppiechef.com/registry.htm?action=view&orderid=7257958",
       "name": "Yuppie Chef Registry"
-    },
-    {
-      "img": "img/wrapistry.png",
-      "link":"https://wrapistry.shop/giftregistry/odwaandnelson",
-      "name": "Wrapistry"
     }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  }
-
+  ]
 }
