@@ -15,7 +15,8 @@ export const Story = (props) => {
           {props.data
             ? 
             <>
-              <ReadMoreSection dataArray={props.data} maxLength={1} buttonText={"Read More"}/>
+              <img src="img/timeline.png" className="img-responsive"  alt={`timeline`} />
+              {/* <ReadMoreSection dataArray={props.data} maxLength={1} buttonText={"Read More"}/> */}
               <ImageCarousel dataArray={props.data} />
             </>   
             : "loading"}

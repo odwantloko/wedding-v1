@@ -8,7 +8,7 @@ export const Registry = (props) => {
           <h2>Registry</h2>
           <div className="registry-content">
             <p>
-              If you'd like to help us start this new chapter in our lives with a little something extra, here is a link to our registry:
+              If you'd like to help us start this new chapter in our lives with a little something extra, here is a link to our optional registry:
             </p>
         
           </div>
