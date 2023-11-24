@@ -26,16 +26,13 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
+      {/* <Navigation /> */}
       <Home data={landingPageData.Home} />
-      <Story data={landingPageData.Story} /> {/** our story */}
-        {/* <Gallery data={landingPageData.Gallery} /> */}
-       {/** <Team data={landingPageData.Team} /> bridal party */}
-      <Details data={landingPageData.Details} />  {/** the details venue + time */}
-      {/** <Contact data={landingPageData.Contact} />  RSVP .. might make it a separate page from a button*/} 
-      <GettingThere data={landingPageData.GettingThere} /> {/** Getting there - venue plus nearby accom */}
-      <Accomodation data={landingPageData.GettingThere} /> {/** Getting there - venue plus nearby accom */}
-      <Registry data={landingPageData.Registry} /> {/** registry details */}
+      <Story data={landingPageData.Story} /> 
+      <Details data={landingPageData.Details} /> 
+      <GettingThere data={landingPageData.GettingThere} /> 
+      <Accomodation data={landingPageData.Accomodation} /> 
+      <Registry data={landingPageData.Registry} /> 
     </div>
   );
 };

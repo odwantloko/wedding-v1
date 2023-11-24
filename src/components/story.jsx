@@ -15,7 +15,7 @@ export const Story = (props) => {
           {props.data
             ? 
             <>
-              <ReadMoreSection dataArray={props.data} maxLength={1} />
+              <ReadMoreSection dataArray={props.data} maxLength={1} buttonText={"Read More"}/>
               <ImageCarousel dataArray={props.data} />
             </>   
             : "loading"}

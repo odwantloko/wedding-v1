@@ -43,14 +43,14 @@ p.intro {
   line-height: 24px;
 }
 a {
-  color: #ffc97b;
+  color: #ff9800;
   font-weight: 400;
   font-style: italic;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #ffc97b;
+  color: #ff9800;
 }
 ul,
 ol {
@@ -164,7 +164,6 @@ hr {
 .btn-custom {
   font-family: serif;;
   color: #fff;
-  /*background-image: linear-gradient(to right, #fe4ea4 0%, #ffc97b 100%);*/
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -248,7 +247,7 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 250px;
+  padding-top: 200px;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -329,6 +328,21 @@ a:focus,
 #gettingThere {
   background: #f6f6f6;
 }
+
+#gettingThere .btn-custom {
+  font-family: serif;;
+  color: #fe4ea4;
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  border-color: #fe4ea4;
+  transition: all 0.5s linear;
+  border: 1px solid #fe4ea4;
+}
+
 #gettingThere i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -370,6 +384,10 @@ a:focus,
 /* Accom */
 #accomodation {
   background: #fff;
+}
+#accomodation a {
+  text-decoration: underline;
+
 }
 #accomodation i.fa {
   font-size: 38px;
@@ -698,6 +716,9 @@ label {
   background: #f6f6f6;
   padding: 40px 0px 10px 5px;
   margin: 0px;
+  text-align: center;
+  font-style: italic;
+
 }
 #footer p {
   color: #888;
