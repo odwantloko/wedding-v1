@@ -8,28 +8,32 @@
   },
   "Story": [
     {
-      "smallImage": "img/lilparis.png"
-    },
-    {
-      "smallImage": "img/chapmans-mountain.png"
+      "smallImage": "img/Engagement.png"
     },
     {
       "smallImage": "img/lobola.png"
     },
     {
-      "smallImage": "img/retreat.png"
-
-    },
-    {
-      "smallImage": "img/knysna-horsies.png"
-    },
-    {
       "smallImage": "img/Vern-spca.png"
     },
     {
+      "smallImage": "img/chapmans-mountain.png"
+    },
+    {
+      "smallImage": "img/lilparis.png"
+    }, 
+    {
+      "smallImage": "img/Waterfall.png"
+    },
+    {
+      "smallImage": "img/retreat.png"
+    },
+    {
       "smallImage": "img/atlantis-jump.png"
+    },
+    {
+      "smallImage": "img/west-coast.png"
     }
-  
   ],
   "GettingThere":[
     {
