@@ -349,6 +349,7 @@ a:focus,
 #gettingThere .btn-custom {
   font-family: serif;;
   color: #fe4ea4;
+  background: #f6f6f6;
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -446,6 +447,8 @@ a:focus,
 #accomodation .story-items {
   margin: 1px -15px 0 -14px;
   padding: 0;
+  font-size: 14px;
+  font-style: italic;
 }
 
 #accomodation .story-items img{
@@ -453,6 +456,29 @@ a:focus,
 
 }
 
+#accomodation .card {
+  padding-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 20px; /* Adjust the border-radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle 3D effect */
+  transition: transform 0.3s ease-in-out;
+
+}
+
+#accomodation .btn-custom {
+  font-family: serif;
+  background-color: #fff;
+  color: #ff9800;
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  border-color: #ff9800;
+  transition: all 0.5s linear;
+  border: 1px solid #ff9800;
+}
 /* Details Section */
 #details {
   padding: 50px 0;

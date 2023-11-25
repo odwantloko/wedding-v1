@@ -30,27 +30,27 @@ const AccomHelper = ({ dataArray, maxLength, buttonText }) => {
       <ul>
         {expanded
           ? dataArray.map((item, index) => (
-            <div key={`${item.name}-${index}`} className="col-md-12">
-                <div className="registry">
-                <div className="registry-content">
-                <div className="registry-meta"><h3>{item.name}</h3> </div>
-                    <p>{item.text}</p>
-
+            <div className="col-sm-6 col-md-3 col-lg-3">
+                <br/>
+            <div className="card">
+                <h3><a href={item.link}
+                        className="btn btn-custom btn-lg page-scroll"
+                        >{item.title}
+                        </a>
+                    </h3>
+                    <p> 
+                    <a href={item.map}> {item.distance} </a>
+                    <br/>
+                    Contact no: {item.contact}
+                    </p>
+                    <img src={item.smallImage} className="img-responsive" alt={item.title} />{" "}
                 </div>
-                </div>
-            </div>
+           
+            </div>  
             ))
+            
           : dataArray.slice(0, maxLength).map((item, index) => (
-            <div key={`${item.name}-${index}`} className="col-md-12">
-                <div className="registry">
-                <div className="registry-content">
-                <div className="registry-meta"><h3>{item.name}</h3> </div>
-                    <p>{item.text}..</p>
-
-                </div>
-                </div>
-            </div>
-
+            <div></div>
             ))}
       </ul>
       {isSmallScreen && dataArray.length > maxLength && (

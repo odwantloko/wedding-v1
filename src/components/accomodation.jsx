@@ -1,4 +1,5 @@
 import React from "react";
+import AccomHelper from './accomHelper';
 
 export const Accomodation = (props) => {
   return (
@@ -11,30 +12,15 @@ export const Accomodation = (props) => {
         </div>
         
           <div className="story-items">
-            <div>
-              <p>                  
-                *Disclaimer: The room you end up actually staying in might differ from the one in the picture. To be safe, confirm when booking. 
-              </p>
-              <br/>
-            </div>
             {props.data
-              ? props.data.map((d, i) => (
-                <div className="col-sm-6 col-md-3 col-lg-3">
-                <h3><a href={d.link}
-                      className="btn btn-custom btn-lg page-scroll"
-                      >{d.title}</a></h3>
-                  <p> 
-                    <a href={d.map}> 
-                      {d.distance}
-                    </a>
-                    <br/>
-                    Contact no: {d.contact}
+                ?  
+                <div>
+                  <AccomHelper dataArray={props.data} maxLength={1} buttonText={"Show Options"} />
+                  <p>                  
+                      *Disclaimer: The room you end up with might differ from the one in the pictures. Do confirm room details upon booking. 
                   </p>
-
-                  <img src={d.smallImage} className="img-responsive" alt={d.title} />{" "}
-
-                  </div>
-                ))
+                  <br/><br/>
+              </div>
               : "Loading..."}
         </div>
       </div>
