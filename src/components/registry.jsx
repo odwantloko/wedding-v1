@@ -34,7 +34,7 @@ export const Registry = (props) => {
             : "loading"}
         </div>
       <div id="footer">
-        Thank you for your love & support, <br/>The Kadamas
+        Thank you for your love & support, <br/>From Nelson & Odwa
       </div>
       </div>
     </div>

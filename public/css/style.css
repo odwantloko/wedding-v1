@@ -248,7 +248,7 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 145px;
+  padding-top: 142px;
   padding-bottom: 35px;
   text-align: center;
 }
@@ -464,6 +464,8 @@ a:focus,
   border-radius: 20px; /* Adjust the border-radius for rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle 3D effect */
   transition: transform 0.3s ease-in-out;
+  width: fit-content;
+  
 
 }
 

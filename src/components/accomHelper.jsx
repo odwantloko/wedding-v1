@@ -30,7 +30,7 @@ const AccomHelper = ({ dataArray, maxLength, buttonText }) => {
       <ul>
         {expanded
           ? dataArray.map((item, index) => (
-            <div className="col-sm-6 col-md-3 col-lg-3">
+            <div key={index} className="col-sm-6 col-md-3 col-lg-3">
                 <br/>
             <div className="card">
                 <h3><a href={item.link}
@@ -46,12 +46,12 @@ const AccomHelper = ({ dataArray, maxLength, buttonText }) => {
                     <img src={item.smallImage} className="img-responsive" alt={item.title} />{" "}
                 </div>
            
-            </div>  
+            </div> 
             ))
             
-          : dataArray.slice(0, maxLength).map((item, index) => (
-            <div></div>
-            ))}
+          : 
+            <p>Loading ...</p>
+            }
       </ul>
       {isSmallScreen && dataArray.length > maxLength && (
         expanded? <br/> :
