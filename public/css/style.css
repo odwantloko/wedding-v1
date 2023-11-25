@@ -247,8 +247,8 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 200px;
-  padding-bottom: 50px;
+  padding-top: 160px;
+  padding-bottom: 35px;
   text-align: center;
 }
 /* Our Story --> Features Section */
@@ -343,6 +343,7 @@ a:focus,
 
 /* Getting There --> Features Section */
 #gettingThere {
+  padding: 50px 10px;
   background: #f6f6f6;
 }
 
@@ -368,13 +369,12 @@ a:focus,
   color: #fff;
   width: 100px;
   height: 100px;
-  padding: 30px 0;
+  padding: 50px 0;
   border-radius: 50%;
   background: linear-gradient(to right, #fe4ea4 0%, #ff9800 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #gettingThere h2 {
-  margin-top: 25px;
   margin-bottom: 15px;
   padding-bottom: 15px;
   color: #fe4ea4;
@@ -402,6 +402,8 @@ a:focus,
 /* Accom */
 #accomodation {
   background: #fff;
+  padding: 50px 10px;
+
 }
 #accomodation a {
   text-decoration: underline;
@@ -429,7 +431,6 @@ a:focus,
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #accomodation h2 {
-  margin-top: 25px;
   margin-bottom: 15px;
   padding-bottom: 15px;
   color: #fe4ea4;
