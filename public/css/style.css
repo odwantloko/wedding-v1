@@ -255,6 +255,19 @@ header .intro-text {
 #story {
   background: #f6f6f6;
 }
+
+
+#story .img-responsive{
+  padding-top: 20px;
+  padding-bottom: 0px;
+  margin: auto;
+
+}
+
+#story .slick-slide{
+  height: auto;
+}
+
 #story i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -278,6 +291,10 @@ header .intro-text {
 .story-items {
   margin: 1px -15px 0 -14px;
   padding: 0;
+}
+
+.story-items p {
+  padding: 15px;
 }
 
 #story .btn-custom {
@@ -389,6 +406,15 @@ a:focus,
   text-decoration: underline;
 
 }
+
+#accomodation a.btn.btn-custom.btn-lg.page-scroll{
+  background-color: #fff;
+  color: #ff9800;
+  text-decoration: unset;
+  border-color: #ff9800;
+
+}
+
 #accomodation i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -530,8 +556,9 @@ a:focus,
   margin-bottom: 20px;
 }
 .registry {
-  position: relative;
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .registry-image {
   float: left;
@@ -547,6 +574,7 @@ a:focus,
 .registry-content {
   position: relative;
   overflow: hidden;
+  padding: 0;
 }
 .registry-content p {
   margin-bottom: 0;
@@ -556,6 +584,7 @@ a:focus,
   color: #f864ac;
   font-style: bold;
   text-decoration: underline;
+  padding-top: 10px;
 
 
 }
@@ -739,6 +768,7 @@ label {
   margin: auto;
 
 }
+
 
 
 

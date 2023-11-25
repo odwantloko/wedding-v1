@@ -12,11 +12,11 @@ export const Story = (props) => {
         <div className="section-title">
           <h2>Our Love Story</h2>  
           <div className="story-items">
+            <p>Over the years, we've been blessed with some wonderful moments. With too many to share, we've captured some of the highlights that helped defined our journey, inviting you to relive the magic that brought us to this joyous celebration.</p>
           {props.data
             ? 
             <>
               <img src="img/timeline.png" className="img-responsive"  alt={`timeline`} />
-              {/* <ReadMoreSection dataArray={props.data} maxLength={1} buttonText={"Read More"}/> */}
               <ImageCarousel dataArray={props.data} />
             </>   
             : "loading"}

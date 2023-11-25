@@ -7,11 +7,11 @@ export const ImageCarousel = ({ dataArray }) => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 5,
+        speed: 2,
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         autoplay: true, // Enable autoplay
-        autoplaySpeed: 4800, // Set the delay between slides (in milliseconds)
+        autoplaySpeed: 2000, // Set the delay between slides (in milliseconds)
         responsive: [
             {
                 breakpoint: 600, // Adjust breakpoint as needed

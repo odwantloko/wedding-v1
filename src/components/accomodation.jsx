@@ -21,9 +21,9 @@ export const Accomodation = (props) => {
               ? props.data.map((d, i) => (
                 <div className="col-sm-6 col-md-3 col-lg-3">
                 <h3><a href={d.link}
-                      className="btn"
+                      className="btn btn-custom btn-lg page-scroll"
                       >{d.title}</a></h3>
-                  <p> Map:{" "} 
+                  <p> 
                     <a href={d.map}> 
                       {d.distance}
                     </a>
