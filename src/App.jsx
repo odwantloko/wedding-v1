@@ -7,7 +7,6 @@ import { Details } from "./components/details";
 import { GettingThere } from "./components/gettingThere";
 import { Registry } from "./components/registry";
 import { Team } from "./components/Team"; // bridal party
-import { Contact } from "./components/contact"; // rsvp
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";

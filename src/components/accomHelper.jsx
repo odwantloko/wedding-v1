@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const AccomHelper = ({ dataArray, maxLength, buttonText }) => {
-  const [expanded, setExpanded] = useState(window.innerWidth > 600);
+  const [expanded, setExpanded] = useState(false);
   const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 600);
 
   const handleToggle = () => {
@@ -50,10 +50,10 @@ const AccomHelper = ({ dataArray, maxLength, buttonText }) => {
             ))
             
           : 
-            <p>Loading ...</p>
-            }
+          <></>
+        }
       </ul>
-      {isSmallScreen && dataArray.length > maxLength && (
+      {dataArray.length > maxLength && (
         expanded? <br/> :
         <button onClick={handleToggle} className="btn btn-custom btn-lg page-scroll">
           {buttonText}
