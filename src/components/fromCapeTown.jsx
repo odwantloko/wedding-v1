@@ -7,7 +7,7 @@ export const FromCapeTown = (props) => {
         <div className="section-title">
           <h2>Cape Town Travellers</h2>
             <p>
-            First of all, thank you so much for your afforts in attending. It really means the world to us. We really appreciate your love and support. 
+            First of all, thank you so much for your efforts in attending. It really means the world to us. We really appreciate your love and support. 
             </p>
 
           <p> 
