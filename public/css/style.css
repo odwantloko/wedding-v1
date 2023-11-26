@@ -376,7 +376,7 @@ a:focus,
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #gettingThere h2 {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   padding-bottom: 15px;
   color: #fe4ea4;
  
@@ -432,7 +432,7 @@ a:focus,
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #accomodation h2 {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   padding-bottom: 15px;
   color: #fe4ea4;
  
@@ -796,6 +796,14 @@ label {
   padding-top: 40px;
   padding-bottom: 0px;
   margin: auto;
+}
+
+.card .img-responsive{
+  padding-top: 40px;
+  padding-bottom: 0px;
+  margin: auto;
+  height: 235px;
+  width: 331px;
 
 }
 
