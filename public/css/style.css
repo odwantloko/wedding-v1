@@ -627,6 +627,20 @@ a:focus,
   font-style: italic;
 
 }
+
+.registry-content h3 {
+  margin-top: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #f864ac;
+  font-style: italic;
+}
+
+.registry-content b {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f864ac;
+}
 /* Team Section */
 #team {
   padding: 100px 0;
