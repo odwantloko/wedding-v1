@@ -7,9 +7,17 @@ export const Registry = (props) => {
         <div className="section-title text-center">
           <h2>Registry</h2>
           <div className="registry-content">
-            <p>
-              If you'd like to help us start this new chapter in our lives with a little something extra, here is a link to our registry:
-            </p>
+              <p>
+                If you'd like to help us start this new chapter in our lives with a little something extra, we have added a link to our gift registry below. 
+              </p>
+              <br/>
+              <h3>
+                How does the registry work?
+              </h3>
+              <p>
+                When you buy something from the registy, you purchase it online (through the link) but it gets <b>delivered to our home</b> on our wedding day. 
+                This means that you don't have to buy a physical gift and carry it with you. There is also an option to add a gift voucher if you'd like to instead.
+              </p>
         
           </div>
         </div>
