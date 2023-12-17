@@ -8,7 +8,7 @@ export const Registry = (props) => {
           <h2>Registry</h2>
           <div className="registry-content">
               <p>
-                If you'd like to help us start this new chapter in our lives with a little something extra, we have added a link to our gift registry below. 
+                If you'd like to help us start this new chapter in our lives with a little something extra, we have added a link to our gift registry below. We will also be accepting gift vouchers on the day.
               </p>
               <br/>
               <h3>
