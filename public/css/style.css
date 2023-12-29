@@ -598,7 +598,7 @@ a:focus,
 .registry-image,
 .registry-image img {
   display: block;
-  width: 64px;
+  width: 84px;
   height: 64px;
   border-radius: 50%;
 }

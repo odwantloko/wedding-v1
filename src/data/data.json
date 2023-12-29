@@ -124,6 +124,11 @@
       "img": "img/yuppiechef-logo.gif",
       "link":"https://www.yuppiechef.com/registry.htm?action=view&orderid=7257958",
       "name": "Yuppie Chef Registry"
+    },
+    {
+      "img": "img/registry/img.png",
+      "link":"https://www.homeetc.co.za/shop/index.php?route=extension/giftregistry/giftregistry_view&giftreg_id=502&akey=05cf0abaf67c7bece5fe27d1d38ee709",
+      "name": "Home ETC Registry"
     }
   ]
 }
