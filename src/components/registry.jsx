@@ -12,11 +12,11 @@ export const Registry = (props) => {
               </p>
               <br/>
               <h3>
-                How does the registry work?
+                How does a registry work?
               </h3>
               <p>
                 When you buy something from a registy, you purchase it online (through the link) but it gets <b>delivered to our home</b> on our wedding day.
-                This means that you don't have to buy a physical gift and carry it with you. There is also an option to add a gift voucher if you'd like to instead.
+                This means that you don't have to buy a physical gift and carry it with you. 
               </p>
         
           </div>
