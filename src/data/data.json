@@ -55,14 +55,6 @@
   ],
   "Accomodation": [
     {
-      "title": "Thaba Legae Guest Lodge",
-      "smallImage": "img/accom/thaba.png",
-      "link":"https://thabalegae.co.za/accommodation",
-      "map":"https://maps.app.goo.gl/L7g1nwav6NcFYJNk7",
-      "distance":"2.5km away from the wedding venue",
-      "contact":"014 592 0066"
-    },
-    {
       "title": "King's Palace Hotel",
       "smallImage": "img/accom/kings.png",
       "link":"http://www.kingspalacehotel.co.za/",
